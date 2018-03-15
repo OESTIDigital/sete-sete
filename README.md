@@ -1,24 +1,18 @@
-# README
+# Sete-sete - Rails with GraphQL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Instaling and running the project
 
-Things you may want to cover:
+* Must to have Ruby, Rails and Postgres installed
 
-* Ruby version
+* Run the following commands:
 
-* System dependencies
+```
+bundle
 
-* Configuration
+rake db:setup
 
-* Database creation
+rails server
+```
 
-* Database initialization
+Now should be possible to run queries and muttations in `http://localhost:3000/graphql`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
